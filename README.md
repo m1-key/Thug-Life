@@ -1,6 +1,7 @@
 # THUG LIFE
 
 This project basically involves the use of OPEN CV.  
+In this masking is done live , i.e you are infront of your webcam , at that time masking will be done.
 
 ---
 ## Process / Concept
