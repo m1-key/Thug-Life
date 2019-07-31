@@ -11,6 +11,7 @@ Created on Sat Jul 27 19:26:10 2019
     4 - cv2 has been imported to read the image and to use the cascade.
     5 - numpy and Pillow's purpose is explained below.
 """
+
 import cv2
 import numpy as np
 from PIL import Image
@@ -22,7 +23,7 @@ cap = cv2.VideoCapture(0)
 thug = Image.open("mask.png")
 
 # using cv2 here to open the HaarCascade in order to detect the face.
-face_cascade = cv2.CascadeClassifier(r"D:\Codes\Machine Learning\haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier(r"haarcascade_frontalface_alt.xml")
 
 while True:
     boolean,img = cap.read()
