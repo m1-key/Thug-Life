@@ -16,6 +16,7 @@ paste it over the face detected. Do the necessary conversions like converting ar
 4. Keep the code file , mask image and haarcascade file in the same folder and run the code .  
 
 ---
+* An output image is there , basically output is not an image, I have just taken a frame from the output to show you what kind of result you will get.
 
 ### Important Links
 1 - Opencv - ```https://github.com/opencv/opencv ```  
